@@ -1,5 +1,18 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
+        MainStart();
+    }
+    
+    static void MainStart() {
+        Start start = new Start();
+        start.Hello();
+    }
+}
+
+
+
+class Start {
+    public void Hello() {
+        System.out.println("Hello, in the limun game!");
     }
 }
